@@ -1,0 +1,335 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+* {
+    margin: 15px;
+    text-align: center;
+    font-family: 'Black Acute', sans-serif;
+
+}
+
+body {
+    background: rgb(251, 63, 63);
+    background: radial-gradient(circle, rgba(251, 63, 63, 1) 0%, rgba(0, 0, 0, 1) 74%);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+.first-line {
+    color: rgb(183, 0, 0);
+    font-size: 45px;
+
+}
+
+.being-invaded {
+    color: whitesmoke;
+    transform: scale(0.94);
+    animation: scale 3s forwards cubic-bezier(0, 0, 0, 0);
+    font-size: 14px;
+}
+
+
+
+@keyframes scale {
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* this fades the text 1 word at a time */
+span {
+    display: inline-block;
+    opacity: 0;
+    filter: blur(6px);
+
+}
+
+span:nth-child(1) {
+    animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(2) {
+    animation: fade-in 0.8s 0.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(3) {
+    animation: fade-in 0.8s 0.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(4) {
+    animation: fade-in 0.8s 0.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(5) {
+    animation: fade-in 0.8s 0.9s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(6) {
+    animation: fade-in 0.8s 1.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(7) {
+    animation: fade-in 0.8s 1.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(8) {
+    animation: fade-in 0.8s 1.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(9) {
+    animation: fade-in 0.8s 2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(10) {
+    animation: fade-in 0.8s 2.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(11) {
+    animation: fade-in 0.8s 2.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(12) {
+    animation: fade-in 0.8s 2.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(13) {
+    animation: fade-in 0.8s 2.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(14) {
+    animation: fade-in 0.8s 3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(15) {
+    animation: fade-in 0.8s 3.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(16) {
+    animation: fade-in 0.8s 3.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(17) {
+    animation: fade-in 0.8s 3.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(18) {
+    animation: fade-in 0.8s 3.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(19) {
+    animation: fade-in 0.8s 5.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(20) {
+    animation: fade-in 0.8s 5.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(21) {
+    animation: fade-in 0.8s 5.9s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(22) {
+    animation: fade-in 0.8s 6s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(23) {
+    animation: fade-in 0.8s 6.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(23) {
+    animation: fade-in 0.8s 6.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(24) {
+    animation: fade-in 0.8s 6.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(25) {
+    animation: fade-in 0.8s 6.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(26) {
+    animation: fade-in 0.8s 7s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(27) {
+    animation: fade-in 0.8s 7.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(28) {
+    animation: fade-in 0.8s 7.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(29) {
+    animation: fade-in 0.8s 7.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(30) {
+    animation: fade-in 0.8s 7.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(31) {
+    animation: fade-in 0.8s 8s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(32) {
+    animation: fade-in 0.8s 8.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(33) {
+    animation: fade-in 0.8s 9s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(34) {
+    animation: fade-in 0.8s 9.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+
+#button-group {
+    display: flex;
+    height: 400px;
+    width: 800px;
+}
+
+button {
+
+    cursor: pointer;
+    font-size: 1.2rem;
+    border: none;
+    background-color: rgb(117, 105, 105);
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    outline: none;
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+}
+#rock {
+
+    cursor: pointer;
+    font-size: 1.2rem;
+    border: none;
+    background: rgb(67, 63, 251);
+    background: radial-gradient(circle, rgba(67, 63, 251, 0.7717665422602031) 0%, rgba(0, 0, 0, 1) 74%);
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;
+    outline: none;
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+}
+
+
+#paper {
+
+    cursor: pointer;
+    font-size: 1.2rem;
+    border: none;
+    background: rgb(67, 63, 251);
+    background: radial-gradient(circle, rgba(67, 63, 251, 0.7717665422602031) 0%, rgba(0, 0, 0, 1) 74%);
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;
+    outline: none;
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+}
+
+#scissors {
+
+    cursor: pointer;
+    font-size: 1.2rem;
+    border: none;
+    background: rgb(67, 63, 251);
+    background: radial-gradient(circle, rgba(67, 63, 251, 0.7717665422602031) 0%, rgba(0, 0, 0, 1) 74%);
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;
+    outline: none;
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+}
+/* to show in order */
+.options :nth-child(1) {
+    animation: fade-in 0.8s 0.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+.options :nth-child(2) {
+    animation: fade-in 0.8s 1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+.options :nth-child(3) {
+    animation: fade-in 0.8s 1.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+/*shows different color when you hover over the button*/
+button:hover img  {
+    pointer-events: none;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+/*makes the button press when clicked*/
+button:active {
+    transform: translate(0, 0.3rem);
+    box-shadow: 0 0.1rem rgba(145, 92, 182, .4);
+}
+
+img {
+    width: 150px;
+}
+
+@keyframes fade-in {
+    100% {
+        opacity: 1;
+        filter: blur(0);
+    }
+}
+.cardlost{
+    
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    height: 50%;
+    margin-left: -10%;
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-radius: 12px ;
+    background-color: rgba(128, 0, 0, 0.548);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    transition: all 0.5s;
+    
+   
+}
+.cardwin{
+    
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    height: 50%;
+    margin-left: -10%;
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-radius: 12px ;
+    background-color: rgba(9, 128, 0, 0.568);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    transition: all 0.5s;
+    
+   
+}
+
+#who-won{
+    margin: -20px 0 -20px 0;
+    padding: 40px;
+    color: whitesmoke;
+}
+button .hi{
+    background-color: wheat;
+
+}
