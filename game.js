@@ -86,7 +86,7 @@ const buttonGroupPressed = e => {
       popup.classList.toggle("cardlost");
       var popup = document.createElement("button");
       var link = document.createElement('a');
-      link.href = "index.html";
+      link.href = "https://ibrahimrabeh.github.io/Rock-Paper-Scissors-game/";
       popup.innerHTML = "play again?";
 
 
@@ -114,7 +114,7 @@ const buttonGroupPressed = e => {
       popup.classList.toggle("cardwin");
       var popup = document.createElement("button");
       var link = document.createElement('a');
-      link.href = "index.html";
+      link.href = "https://ibrahimrabeh.github.io/Rock-Paper-Scissors-game/";
       popup.innerHTML = "play again?";
 
 
